@@ -23,7 +23,7 @@ In the **back-end**, `gin` is used as a web framework with `go-jwt` for user aut
 Download the latest release and write a server configuration, then run `arti_server.exe`.
 
 ## 🪤 Configuration
-> By default, SQLite database file will be automatically generated in `database` folder, which names `arti_database.db`.
+> By default, a SQLite database file is needed, which should be named `arti_database.db` in `database` folder.
 
 > The config file `app.ini` should be placed in `conf` folder, and the follows below are its format.
 ```
