@@ -23,7 +23,8 @@ In the **back-end**, `gin` is used as a web framework with `go-jwt` for user aut
 Download the latest release and write a server configuration, then run `arti_server.exe`.
 
 ## 🪤 Configuration
-> the config file `app.ini` should be placed in `conf` folder, and the follows below are its format.
+> By default, SQLite database file will be automatically generated in `database` folder, which names `arti_database.db`.
+> The config file `app.ini` should be placed in `conf` folder, and the follows below are its format.
 ```
 #define the run-mode of gin (release/debug)
 RUN_MODE = debug
